@@ -517,5 +517,29 @@ typedef NS_ENUM(NSInteger, RCTranslateStrategy) {
 
 @class RCTranslateItem;
 
+/**
+ 消息已读回执功能版本
+ */
+typedef NS_ENUM(NSInteger, RCMessageReadReceiptVersion) {
+    /**
+     消息已读回执功能版本1
+     */
+    RCMessageReadReceiptVersion1 = 0,
+    /**
+     消息已读回执功能版本2
+     */
+    RCMessageReadReceiptVersion2 = 1,
+    /**
+     消息已读回执功能版本4
+     */
+    RCMessageReadReceiptVersion4 = 3,
+    /**
+     消息读回执功能版本5
+     */
+    RCMessageReadReceiptVersion5 = 4,
+};
+
+
+
 
 #endif
